@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<title>FAD Profesores Carrera</title>
+    	<!-- CSS only -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  	</head>
+  	
+  	<body>
+    	<div class="jumbotron text-center jumbotron-fluid">
+  			<h1 class="display-4">Profesores de Carrera</h1>
+  			<p>Formato de Informe Anual</p> 
+		</div>
+
+		<div class="container">
+
+    		<form>
+
+    			<div class="accordion" id="formulario_profesores">
+    				<div class="card">
+    					<div class="card-header" id="encabezado_1">
+      						<h2 class="mb-0">
+        						<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#formulario_1" aria-expanded="false" aria-controls="formulario_1">
+          							1. Formación y trayectoria académica o profesional
+        						</button>
+     				 		</h2>
+    					</div>
+
+    					<div id="formulario_1" class="collapse" aria-labelledby="encabezado_1" data-parent="#formulario_profesores">
+      						<div class="card-body">
+    							<div class="form-group">
+    								<h2>Nivel Académico</h2>
+    							</div>
+
+  								<div class="form-group">
+    								<label for="input_niv_1">Nivel máximo de estudios</label>
+    								<input class="form-control" id="input_niv_1" placeholder="p. ej. Licenciatura">
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_niv_2">Grados académicos</label>
+    								<input class="form-control" id="input_niv_2" placeholder="p. ej. ....">
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_niv_3">Actividades de superación académica</label>
+    								<input class="form-control" id="input_niv_3" placeholder="p. ej. ....">
+  								</div>
+
+  								<div class="form-group">
+    								<h2>Trayectoria Académica o Profesional</h2>
+    							</div>
+
+    							<div class="form-group">
+    								<label for="input_niv_4">Actividades de producción académica y formación de recursos humanos de año reportado</label>
+    								<textarea class="form-control" id="input_niv_4" rows="2"></textarea>
+  								</div>  								
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="card">
+    					<div class="card-header" id="encabezado_2">
+      						<h2 class="mb-0">
+        						<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#formulario_2" aria-expanded="false" aria-controls="formulario_2">
+          							2.	Labores docentes y de formación de recursos humanos 
+        						</button>
+     				 		</h2>
+    					</div>
+
+    					<div id="formulario_2" class="collapse" aria-labelledby="encabezado_2" data-parent="#formulario_profesores">
+      						<div class="card-body">
+    							<div class="form-group">
+    								<h2>Formación de recursos humanos</h2>
+    							</div>
+
+    							<div class="form-group">
+    								<label for="input_formacion_1">Cursos impartidos presenciales: curriculares y/o complementarios, número de grupos, número de alumnos atendidos</label>
+    								<textarea class="form-control" id="input_formacion_1" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_2">Cursos impartidos a distancia: curriculares y/o complementarios, número de grupos, número de alumnos atendidos</label>
+    								<textarea class="form-control" id="input_formacion_2" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_3">Uso de aulas virtuales</label>
+    								<textarea class="form-control" id="input_formacion_3" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_4">Página Web</label>
+    								<input class="form-control" id="input_formacion_4" placeholder="p. ej. ...">
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_5">Blog</label>
+    								<input class="form-control" id="input_formacion_5" placeholder="p. ej. ....">
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_">Tutorías en licenciatura: número de alumnos atendidos, licenciatura.</label>
+    								<textarea class="form-control" id="input_formacion_" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_6">Tutorías en Posgrado: número de tutelos, títulos de los proyectos de investigación por alumno.</label>
+    								<textarea class="form-control" id="input_formacion_6" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_7">Tutor principal: número de alumnos, títulos de los proyectos.</label>
+    								<textarea class="form-control" id="input_formacion_7" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_8">Participación en Comités tutores: número de alumnos y títulos de los proyectos</label>
+    								<textarea class="form-control" id="input_formacion_8" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_9">Dirección de tesis de licenciatura: número de alumnos, titulo del trabajo, fecha de inicio de las tesis en proceso. Tesis concluidas como director.</label>
+    								<textarea class="form-control" id="input_formacion_9" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_10">Dirección de tesis de posgrado: número de alumnos, titulo del trabajo, fecha de inicio de las tesis en proceso. Tesis concluidas como director, nivel maestría y doctorado.</label>
+    								<textarea class="form-control" id="input_formacion_10" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_11">Participación en jurados de exámenes profesionales: número de exámenes y títulos de las tesis</label>
+    								<textarea class="form-control" id="input_formacion_11" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_12">Participación en jurados de exámenes de grado: Maestría, número de alumnos y títulos de tesis. Doctorado, número de alumnos y títulos de tesis.</label>
+    								<textarea class="form-control" id="input_formacion_12" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_13">Participación en seminarios o grupos de investigación: nombre de los seminarios y nombre de los proyectos de investigación.</label>
+    								<textarea class="form-control" id="input_formacion_13" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_14">Elaboración de materiales didácticos: publicaciones tradicionales y /o electrónicas, tipo de publicación y títulos.</label>
+    								<textarea class="form-control" id="input_formacion_14" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<h2>Actividades de apoyo a la formación de recursos</h2>
+    							</div>
+
+  								<div class="form-group">
+    								<label for="input_formacion_15">Actividades (planeación, diseño, organización, coordinación o realización de planes y programas de estudios).</label>
+    								<textarea class="form-control" id="input_formacion_15" rows="2"></textarea>
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="card">
+    					<div class="card-header" id="encabezado_3">
+      						<h2 class="mb-0">
+        						<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#formulario_3" aria-expanded="false" aria-controls="formulario_3">
+          							 3. Productividad académica
+        						</button>
+     				 		</h2>
+    					</div>
+
+    					<div id="formulario_3" class="collapse" aria-labelledby="encabezado_3" data-parent="#formulario_profesores">
+      						<div class="card-body">
+    							<div class="form-group">
+    								<h2>Productividad en la investigación y la docencia</h2>
+    							</div>
+
+  								<div class="form-group">
+    								<label for="input_productividad_1">Artículos arbitrados, ponencias, libros, capítulos, reseñas, antologías, manuales, conferencias</label>
+    								<textarea class="form-control" id="input_productividad_1" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<h2>Producción artística, humanística y de diseño</h2>
+    							</div>
+
+  								<div class="form-group">
+    								<label for="input_productividad_2">Exposiciones individuales o colectivas, obras de arte o de diseño, libros, folletos, catálogos, carteles, infografía, ilustración, fotografía, animación, portafolio de autor en medios impresos, convencionales y electrónicos.  Curaduría y museografía de exposiciones de obra artística, pintura, grabado, escultura, libro-objeto, objetos de diseño, performance, acciones e intervenciones, en espacios al aire libre, galerías, museos o zonas culturales, otros.</label>
+    								<textarea class="form-control" id="input_productividad_2" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<h2>Productos de infraestructura académica</h2>
+    							</div>
+  								
+  								<div class="form-group">
+    								<label for="input_productividad_3">Organización o desarrollo de bibliotecas, laboratorios, talleres, museos, otros.</label>
+    								<textarea class="form-control" id="input_productividad_3" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<h2>Vinculación académica o de investigación con los sectores público, privado o social</h2>
+    							</div>
+
+  								<div class="form-group">
+    								<label for="input_productividad_4">Promoción y gestión de patrocinio a proyectos de investigación.</label>
+    								<textarea class="form-control" id="input_productividad_4" rows="2"></textarea>
+  								</div>								 								
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="card">
+    					<div class="card-header" id="encabezado_4">
+      						<h2 class="mb-0">
+        						<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#formulario_4" aria-expanded="false" aria-controls="formulario_4">
+          							 4. Productos para la docencia
+        						</button>
+     				 		</h2>
+    					</div>
+
+    					<div id="formulario_4" class="collapse" aria-labelledby="encabezado_4" data-parent="#formulario_profesores">
+      						<div class="card-body">
+    							<div class="form-group">
+    								<label for="input_productos_1">Materiales didácticos para la enseñanza presencial, abierta y recursos en línea.</label>
+    								<textarea class="form-control" id="input_productos_1" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_productos_2">Libros de texto o de apoyo a la enseñanza. Capítulos de libros de texto.</label>
+    								<textarea class="form-control" id="input_productos_2" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_productos_3">Capítulos de libros de texto</label>
+    								<textarea class="form-control" id="input_productos_3" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_productos_4">Compilaciones</label>
+    								<textarea class="form-control" id="input_productos4_" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_productos_5">Antologías</label>
+    								<textarea class="form-control" id="input_productos_5" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_productos_6">Ensayos</label>
+    								<textarea class="form-control" id="input_productos_6" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_productos_7">Programas innovadores de enseñanza</label>
+    								<textarea class="form-control" id="input_productos_7" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_productos_8">Presentación de trabajos en reuniones relacionadas con la enseñanza de la disciplina. </label>
+    								<textarea class="form-control" id="input_productos_8" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_productos_9">Traducción de materiales especializados que sirvan de apoyo a los programas docentes.</label>
+    								<textarea class="form-control" id="input_productos_9" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_productos_10">Materiales digitales multimedia, animación, ilustración, fotografía, video, cortometraje.</label>
+    								<textarea class="form-control" id="input_productos_10" rows="2"></textarea>
+  								</div>															
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="card">
+    					<div class="card-header" id="encabezado_5">
+      						<h2 class="mb-0">
+        						<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#formulario_5" aria-expanded="false" aria-controls="formulario_5">
+          							 5. Labores de difusión y extensión 
+        						</button>
+     				 		</h2>
+    					</div>
+
+    					<div id="formulario_5" class="collapse" aria-labelledby="encabezado_5" data-parent="#formulario_profesores">
+      						<div class="card-body">
+
+  								<div class="form-group">
+    								<label for="input_laboraes_1">Libros de divulgación impresos y electrónicos</label>
+    								<textarea class="form-control" id="input_laboraes_1" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_laboraes_2">Artículos de divulgación impresos y electrónicos</label>
+    								<textarea class="form-control" id="input_laboraes_2" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_laboraes_3">Conferencias</label>
+    								<textarea class="form-control" id="input_laboraes_3" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_laboraes_4">Organización de eventos (científicos, tecnológicos o artísticos, nacionales e internacionales)Exposiciones</label>
+    								<textarea class="form-control" id="input_laboraes_4" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_laboraes_5">Exposiciones</label>
+    								<textarea class="form-control" id="input_laboraes_5" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_laboraes_6">Trabajos museográfico y curatorial</label>
+    								<textarea class="form-control" id="input_laboraes_6" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_laboraes_7">Videos, audiovisuales, animaciones y películas</label>
+    								<textarea class="form-control" id="input_laboraes_7" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_laboraes_8">Participación en medios de comunicación (prensa, radio, televisión, Web, Blogs)</label>
+    								<textarea class="form-control" id="input_laboraes_8" rows="2"></textarea>
+  								</div>  								  																
+  							</div>
+  						</div>
+  					</div>
+
+  					<div class="card">
+    					<div class="card-header" id="encabezado_">
+      						<h2 class="mb-0">
+        						<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#formulario_" aria-expanded="false" aria-controls="formulario_">
+          							 6. Participación institucional y servicios a la comunidad
+        						</button>
+     				 		</h2>
+    					</div>
+
+    					<div id="formulario_" class="collapse" aria-labelledby="encabezado_" data-parent="#formulario_profesores">
+      						<div class="card-body">
+    							<div class="form-group">
+    								<label for="input_participacion_1">Cuerpos colegiados</label>
+    								<textarea class="form-control" id="input_participacion_1" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_participacion_2">Comités editoriales</label>
+    								<textarea class="form-control" id="input_participacion_2" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_participacion_3">Comités de evaluación de programas institucionales (PRIDE, PAPIME, PAPIIT, etc)</label>
+    								<textarea class="form-control" id="input_participacion_3" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_participacion_4">Programas institucionales de servicio</label>
+    								<textarea class="form-control" id="input_participacion_4" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_participacion_5">Programas institucionales de desarrollo de infraestructura académica</label>
+    								<textarea class="form-control" id="input_participacion_5" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_participacion_6">Diseño y revisión de planes y programas de estudios</label>
+    								<textarea class="form-control" id="input_participacion_6" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_participacion_7">Actividades de dirección, organización o coordinación académica institucional</label>
+    								<textarea class="form-control" id="input_participacion_7" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_participacion_8">Participación activa como jurado calificados en concursos de oposición, premios, reconocimientos y concursos</label>
+    								<textarea class="form-control" id="input_participacion_8" rows="2"></textarea>
+  								</div>
+
+  								<div class="form-group">
+    								<label for="input_participacion_9">Servicios a la comunidad, proyectos artísticos, de diseño, culturales</label>
+    								<textarea class="form-control" id="input_participacion_9" rows="2"></textarea>
+  								</div>  								  																
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  				<br>
+  				<button type="submit" class="btn btn-primary">Enviar</button>
+			</form>
+    	</div>
+
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  	</body>
+</html>
